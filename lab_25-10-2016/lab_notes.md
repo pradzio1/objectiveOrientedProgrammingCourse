@@ -9,10 +9,10 @@
     -   Niepubliczny:  
 
         ```c++
-                                class example{
-                                	private example(){
-                                    }
-                                };
+        class example{
+        	private example(){
+        	}
+        };
         ```
         - Taki konstruktor może być wywołany tylko z ciała klasy
         - Sprawia, że kompilator nie tworzy konstruktora domyślnego
