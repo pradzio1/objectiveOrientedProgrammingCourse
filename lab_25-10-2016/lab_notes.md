@@ -1,62 +1,84 @@
 ### Zajecia laboratoryjne 25.10.2016 - Konspekt
 
-1. Konstruktory:
-    - Domniemany:
-	    - Konstruktor wywo³ywany bez ¿adnych argumentów
-		- Je¿eli nie zadeklarujemy konstruktora domniemanego, kompilator zadeklaruje konstruktor domyœlny bêd¹cy jednoczeœnie domniemanym.
-	- Publiczny:
-	    - Standardowy konstruktor instancji
-	- Niepubliczny:  
-	
-	    ```c++
-		class example{
-			private example(){
-			}
-		};
-		```
-		- Taki konstruktor mo¿e byæ wywo³any tylko z cia³a klasy
-		- Sprawia, ¿e kompilator nie tworzy konstruktora domyœlnego
-		- Je¿eli wszystkie konstruktory s¹ prywatne, obiektu nie mo¿na w ogóle utworzyæ z zwen¹trz
-		- Mo¿emy stworzyæ metodê zwracaj¹c¹ gotowy obiekt
-		```c++
-		class example{
-			private example(){}
-			public example Create(){
-				return new example();
-			}
-		};
-		```
-	- Kopiuj¹cy:
-	    - Przyjmuje jako argument tylko obiekt klasy
-		```c++
-		class point{
-			public:
-				int x, y;
-				point(){
-					x=0;
-					y=0;
-				}
-				point(point &copiedPoint){
-					x=copiedPoint.x;
-					y=copiedPoint.y;
-				}
-		};
-		```
-2. WskaŸniki w klasach:
-    - Do pokazywania na dan¹ sk³adow¹ klasy:
-        - WskaŸnik do sk³adowej typu int w klasie example:
-		    ```c++
-			int example::*pointer;
-			```
-		- Za³ó¿my, ¿e klasa example ma dwa publiczne, nie statyczne pola integer1 i integer2:
-		    ```c++
-			pointer1=&example::integer1;
-			pointer2=&example::integer2;
-			```
-		- Symbol '&' nie oznacza pobrania bezwzglêdnego adresu, wskazuje on na przesuniêcie wskaŸnika do sk³adowej integer od pocz¹tku obiektu klasy example
-		- TO BE CONTINUED
-	- Do funkcji sk³adowych:
-	    - TO BE DONE
-    - 
-3. Akcesory, modyfikatory, realizatory:  
-    - Gettery
+1.  Konstruktory:
+    -   Domniemany:
+        - Konstruktor wywoÅ‚ywany bez Å¼adnych argumentÃ³w
+        - JeÅ¼eli nie zadeklarujemy konstruktora domniemanego, kompilator zadeklaruje konstruktor domyÅ›lny bÄ™dÄ…cy jednoczeÅ›nie domniemanym.
+    -   Publiczny:
+        - Standardowy konstruktor instancji
+    -   Niepubliczny:  
+
+        ```c++
+                                class example{
+                                	private example(){
+                                    }
+                                };
+        ```
+        - Taki konstruktor moÅ¼e byÄ‡ wywoÅ‚any tylko z ciaÅ‚a klasy
+        - Sprawia, Å¼e kompilator nie tworzy konstruktora domyÅ›lnego
+        - JeÅ¼eli wszystkie konstruktory sÄ… prywatne, obiektu nie moÅ¼na w ogÃ³le utworzyÄ‡ z zwenÄ…trz
+        - MoÅ¼emy stworzyÄ‡ metodÄ™ zwracajÄ…cÄ… gotowy obiekt
+        ```c++
+        class example{
+        	private example(){}
+        	public example Create(){
+        		return new example();
+        	}
+        };
+        ```
+    -   KopiujÄ…cy:
+        - Przyjmuje jako argument tylko obiekt klasy
+        ```c++
+        class point{
+        	public:
+        		int x, y;
+        		point(){
+        			x=0;
+        			y=0;
+        		}
+        		point(point &copiedPoint){
+        			x=copiedPoint.x;
+        			y=copiedPoint.y;
+        		}
+        };
+        ```
+2.  WskaÅºniki w klasach:
+    -   Do pokazywania na danÄ… skÅ‚adowÄ… klasy:
+        - Z zewnÄ…trz klasy wskazaÄ‡ moÅ¼emy tylko na publicznÄ… skÅ‚adowÄ…
+        ```c++
+        class example{
+        	public:
+            	double x, y, z;
+        };
+        double example::*pointer; //definicja wskaÅºnika na obiekty typu double
+        pointer=&example::x;
+        ```
+        - Symbol '&' nie oznacza pobrania bezwzglÄ™dnego adresu, wskazuje on na przesuniÄ™cie wskaÅºnika do skÅ‚adowej integer od poczÄ…tku obiektu klasy example
+        - Nie jest to wiÄ™c wskaÅºnik ustawiony na staÅ‚e miejsce w pamiÄ™ci, a jedynie offset od poczÄ…tku obiektu, ktÃ³ry ma zarezerwowane jakiÅ› obszar w pamiÄ™ci.
+        - Nie da siÄ™ ustawiÄ‡ wskaÅºnika w klasie na obiekty, ktÃ³re nie posiadajÄ… wÅ‚asnej nazwy.
+
+    -   Do funkcji skÅ‚adowych:
+
+        ```c++
+        class example{
+        	public:
+        	  int x, y, z;
+        	  int sampleMethod();
+        };
+        int (example::*pointer)();
+        ```
+        - W powyÅ¼szym wypadku pointer jest wskaÅºnikiem pokazujÄ…cym na skÅ‚adniki klasy example bÄ™dÄ…ce funkcjami, wywoÅ‚ywanymi bez argumentÃ³w, zwracajÄ…cymi integery.
+        ```c++
+        pointer = &example::sampleMethod;
+        ```
+        - MetodÄ™ uruchamia siÄ™ na rzecz konkretnego obiektu jej klasy.
+        ```c++
+        int (example::*pointer)();
+        pointer=&example::sampleMethod;
+        example object;
+        (object.*pointer)();
+        ```
+
+3.  Akcesory, modyfikatory:  
+    - Gettery (Akcesory) - metody pobierajÄ…ce jakÄ…Å› wartoÅ›Ä‡ z obiektu.
+    - Settery (Modyfikatory) - metody ustawiajÄ…ce jakÄ…Å› wartoÅ›Ä‡ w obiekcie.
