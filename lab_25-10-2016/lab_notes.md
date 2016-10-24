@@ -6,7 +6,8 @@
 		- Je¿eli nie zadeklarujemy konstruktora domniemanego, kompilator zadeklaruje konstruktor domyœlny bêd¹cy jednoczeœnie domniemanym.
 	- Publiczny:
 	    - Standardowy konstruktor instancji
-	- Niepubliczny:
+	- Niepubliczny:  
+	
 	    ```c++
 		class example{
 			private example(){
@@ -55,4 +56,7 @@
 		- Symbol '&' nie oznacza pobrania bezwzglêdnego adresu, wskazuje on na przesuniêcie wskaŸnika do sk³adowej integer od pocz¹tku obiektu klasy example
 		- TO BE CONTINUED
 	- Do funkcji sk³adowych:
-	    
+	    - TO BE DONE
+    - 
+3. Akcesory, modyfikatory, realizatory:  
+    - Gettery
