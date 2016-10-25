@@ -1,4 +1,4 @@
-### Zajecia laboratoryjne 18.10.2016 - Konspekt
+### Zajecia laboratoryjne 11.10.2016 - Konspekt
 
 1.  Przeładowanie funkcji:  
     - Funkcja ma tą samą nazwę, ale zwraca inny typ, lub ma inną ilość lub typy argumentów.  
@@ -17,23 +17,23 @@
 
     - Zmienna typu static posiada tylko jedną instancję w całym programie, tak więc wszystkie obiekty danej klasy dzielą ją między sobą.
 
-	```c++
-	class exampleClass{
-	public:
+    ```c++
+    class exampleClass{
+    public:
       const double pi = 3.14;
       static classCount;
       exampleClass(){
         classCount++;
       }
-	};
-	```
+    };
+    ```
 
     - Inicjalizacja zmiennej statycznej:
 
-	```c++
-	int exampleClass::classCount=0;
-	```
-	
+    ```c++
+    int exampleClass::classCount=0;
+    ```
+
 3.  Wskaźniki:
 
     - Do funkcji:
@@ -48,4 +48,4 @@
         pointer(7, 8);
     ```
 
-    - 
+    - ​
