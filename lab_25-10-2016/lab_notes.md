@@ -9,10 +9,10 @@
     -   Niepubliczny:  
 
         ```c++
-        class example{
-        	private example(){
-        	}
-        };
+          class example{
+          	private example(){
+          	}
+          };
         ```
         - Taki konstruktor może być wywołany tylko z ciała klasy
         - Sprawia, że kompilator nie tworzy konstruktora domyślnego
@@ -60,12 +60,12 @@
     -   Do funkcji składowych:
 
         ```c++
-        class example{
-        	public:
-        	  int x, y, z;
-        	  int sampleMethod();
-        };
-        int (example::*pointer)();
+          class example{
+          	public:
+          	  int x, y, z;
+          	  int sampleMethod();
+          };
+          int (example::*pointer)();
         ```
         - W powyższym wypadku pointer jest wskaźnikiem pokazującym na składniki klasy example będące funkcjami, wywoływanymi bez argumentów, zwracającymi integery.
         ```c++
