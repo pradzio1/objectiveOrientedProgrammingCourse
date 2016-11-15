@@ -3,16 +3,20 @@
 #include <cstdlib>
 #include "Order.h"
 using namespace std;
-void printBookInfo(Book &k) {
-	cout << "Tytul: " << k.title << "\tAutor: " << k.author << "\tCena: "<<k.price<<"\t Licznik: "<<k.counter<<"\n";
+void printBookInfo(Book &b) {
+	cout << "Tytul: " << b.title << "\tAutor: " << b.author << "\tCena: "<<b.price<<"\t Licznik: "<<b.counter<<"\n";
 }
 int main() {
-	Order x(120);
-	for (int i = 0; i < 120; i++) {
-		printBookInfo(x.bookList[i]);
+	int bookCount = 10;
+	for (int szt = 0; szt < bookCount; szt++) {
+		Book *randBookList = new Book[bookCount];
+		Order *firstOrder = new Order(randBookList, bookCount);
+		for (int i = 0; i < bookCount; i++) {
+			firstOrder->setPrice(i);
+			printBookInfo(randBookList[i]);
+		}
+		delete[]randBookList;
 	}
-	delete x;
-
 	srand(time(NULL));
 	system("pause");
 	return 0;

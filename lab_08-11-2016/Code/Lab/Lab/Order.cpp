@@ -1,32 +1,39 @@
 #include <iostream>
-#include <ctime>
-#include <cstdlib>
 #include "Order.h"
 using namespace std;
-int Order::orderCount = 0;
-//Order::Order():limit(10){
-//	orderCount++;
-//	id = orderCount;
-//	bookList = new Book [limit];
-//}
-Order::Order(const Order &copyCandidate) :limit(copyCandidate.limit) {
-	orderCount++;
-	id = copyCandidate.id;
-	bookList = copyCandidate.bookList;
+int Order::nextId = 0;
+Order::Order():id(nextId), limit(15){
+	nextId++;
+	bookList = new Book [limit];
+	for (int szt = 0; szt < limit; szt++) bookList[szt] = Book();
 }
-Order::Order(int lim):limit(lim){
+Order::Order(const Order &copyCandidate) :limit(copyCandidate.limit), id(copyCandidate.id) {
 	bookList = new Book[limit];
-	orderCount++;
+	for (int szt = 0; szt < limit; szt++) bookList[szt] = copyCandidate.bookList[szt];
+}
+Order::Order(int lim):limit(lim), id(nextId){
+	bookList = new Book[limit];
+	nextId++;
+	for (int szt = 0; szt < limit; szt++) bookList[szt] = Book();
+}
+Order::Order(Book *newBook, int lim) : id(nextId), limit(lim) {
+	nextId++;
+	bookList = newBook;
 }
 Order::~Order(){
-cout << 
+//	cout << "shit happens";
+	for (int szt = 0; szt < limit; szt++) printBookInfo(bookList[szt]);
+	delete[] bookList;
 }
-string Order::getBookAuthor(Book &k) {
-	return k.author;
+void Order::setPrice(int whichOne) {
+	if (whichOne < limit) bookList[whichOne].price = (float(rand() % 4001) + 1000)*0.01;
+	else cout << "Merror book not found";
 }
-string Order::getBookTitle(Book &k) {
-	return k.title;
+float Order::totalCost() {
+	float totalCost = 0;
+	for (int szt = 0; szt < limit; szt++) totalCost += bookList[szt].price;
+	return totalCost;
 }
-float Order::getBookPrice(Book &k) {
-	return k.price;
+inline int Order::howManyBooks() {
+	return Book::counter;
 }

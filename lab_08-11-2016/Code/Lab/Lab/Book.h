@@ -9,9 +9,8 @@ class Book {
 	friend void printBookInfo(Book &k);
 	string author, title;
 	float price;
-	int priceBuilder;
-public:
 	static int counter;
+public:
 	Book();
 	Book(Book &);
 	Book(string tytul, string author, float price);
