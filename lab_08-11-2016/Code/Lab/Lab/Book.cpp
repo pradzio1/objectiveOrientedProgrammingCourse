@@ -19,5 +19,6 @@ Book::Book(Book &copyCandidate) {
 	counter++;
 }
 Book::~Book() {
+	//cout<<"buzzz destruuction";
 	counter--;
 }

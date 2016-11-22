@@ -8,7 +8,8 @@ void printBookInfo(Book &b) {
 }
 int main() {
 	int bookCount = 10;
-	for (int szt = 0; szt < bookCount; szt++) {
+	int orderCount = 10;
+	for (int szt = 0; szt < orderCount; szt++) {
 		Book *randBookList = new Book[bookCount];
 		Order *firstOrder = new Order(randBookList, bookCount);
 		for (int i = 0; i < bookCount; i++) {
@@ -16,7 +17,12 @@ int main() {
 			printBookInfo(randBookList[i]);
 		}
 		delete[]randBookList;
+		cout << "\n";
+		firstOrder->howManyBooks();
+		cout << "\n";
+		delete firstOrder;
 	}
+
 	srand(time(NULL));
 	system("pause");
 	return 0;

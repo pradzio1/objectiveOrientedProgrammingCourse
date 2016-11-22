@@ -34,6 +34,6 @@ float Order::totalCost() {
 	for (int szt = 0; szt < limit; szt++) totalCost += bookList[szt].price;
 	return totalCost;
 }
-inline int Order::howManyBooks() {
-	return Book::counter;
+void Order::howManyBooks() {
+	cout << Book::counter;
 }

@@ -12,7 +12,7 @@ public:
 	Order(const Order &);
 	~Order();
 
-	inline int howManyBooks();
+	void howManyBooks();
 	float totalCost();
 	void setPrice(int);
 };
