@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Lab.dir/Node.cpp.o CMakeFiles/Lab.dir/Node1D.cpp.o CMakeFiles/Lab.dir/Node2D.cpp.o CMakeFiles/Lab.dir/Node3D.cpp.o CMakeFiles/Lab.dir/Element.cpp.o CMakeFiles/Lab.dir/main.cpp.o  -o Lab 

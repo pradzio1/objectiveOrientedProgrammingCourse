@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_29-11-2016/Code/Lab1/Employee.cpp
+iostream
+-
+Employee.h
+/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_29-11-2016/Code/Lab1/Employee.h
+
+/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_29-11-2016/Code/Lab1/Employee.h
+string
+-
+
+/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_29-11-2016/Code/Lab1/ItSpecialist.cpp
+ItSpecialist.h
+/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_29-11-2016/Code/Lab1/ItSpecialist.h
+iostream
+-
+
+/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_29-11-2016/Code/Lab1/ItSpecialist.h
+Employee.h
+/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_29-11-2016/Code/Lab1/Employee.h
+
+/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_29-11-2016/Code/Lab1/Manager.cpp
+Manager.h
+/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_29-11-2016/Code/Lab1/Manager.h
+iostream
+-
+
+/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_29-11-2016/Code/Lab1/Manager.h
+Employee.h
+/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_29-11-2016/Code/Lab1/Employee.h
+
+/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_29-11-2016/Code/Lab1/main.cpp
+iostream
+-
+Manager.h
+/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_29-11-2016/Code/Lab1/Manager.h
+ItSpecialist.h
+/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_29-11-2016/Code/Lab1/ItSpecialist.h
+
