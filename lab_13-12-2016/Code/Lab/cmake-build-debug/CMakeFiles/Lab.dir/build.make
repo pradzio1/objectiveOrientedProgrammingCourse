@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/radix/.bin/clion-2016.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /home/radix/.bin/clion-2016.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab
+CMAKE_SOURCE_DIR = /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug
+CMAKE_BINARY_DIR = /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Lab.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Lab.dir/flags.make
 
 CMakeFiles/Lab.dir/Node.cpp.o: CMakeFiles/Lab.dir/flags.make
 CMakeFiles/Lab.dir/Node.cpp.o: ../Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab.dir/Node.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab.dir/Node.cpp.o -c /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab.dir/Node.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab.dir/Node.cpp.o -c /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node.cpp
 
 CMakeFiles/Lab.dir/Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab.dir/Node.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node.cpp > CMakeFiles/Lab.dir/Node.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node.cpp > CMakeFiles/Lab.dir/Node.cpp.i
 
 CMakeFiles/Lab.dir/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab.dir/Node.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node.cpp -o CMakeFiles/Lab.dir/Node.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node.cpp -o CMakeFiles/Lab.dir/Node.cpp.s
 
 CMakeFiles/Lab.dir/Node.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Lab.dir/Node.cpp.o.provides.build: CMakeFiles/Lab.dir/Node.cpp.o
 
 CMakeFiles/Lab.dir/Node1D.cpp.o: CMakeFiles/Lab.dir/flags.make
 CMakeFiles/Lab.dir/Node1D.cpp.o: ../Node1D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab.dir/Node1D.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab.dir/Node1D.cpp.o -c /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node1D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab.dir/Node1D.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab.dir/Node1D.cpp.o -c /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node1D.cpp
 
 CMakeFiles/Lab.dir/Node1D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab.dir/Node1D.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node1D.cpp > CMakeFiles/Lab.dir/Node1D.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node1D.cpp > CMakeFiles/Lab.dir/Node1D.cpp.i
 
 CMakeFiles/Lab.dir/Node1D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab.dir/Node1D.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node1D.cpp -o CMakeFiles/Lab.dir/Node1D.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node1D.cpp -o CMakeFiles/Lab.dir/Node1D.cpp.s
 
 CMakeFiles/Lab.dir/Node1D.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Lab.dir/Node1D.cpp.o.provides.build: CMakeFiles/Lab.dir/Node1D.cpp.o
 
 CMakeFiles/Lab.dir/Node2D.cpp.o: CMakeFiles/Lab.dir/flags.make
 CMakeFiles/Lab.dir/Node2D.cpp.o: ../Node2D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab.dir/Node2D.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab.dir/Node2D.cpp.o -c /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab.dir/Node2D.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab.dir/Node2D.cpp.o -c /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node2D.cpp
 
 CMakeFiles/Lab.dir/Node2D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab.dir/Node2D.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node2D.cpp > CMakeFiles/Lab.dir/Node2D.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node2D.cpp > CMakeFiles/Lab.dir/Node2D.cpp.i
 
 CMakeFiles/Lab.dir/Node2D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab.dir/Node2D.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node2D.cpp -o CMakeFiles/Lab.dir/Node2D.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node2D.cpp -o CMakeFiles/Lab.dir/Node2D.cpp.s
 
 CMakeFiles/Lab.dir/Node2D.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Lab.dir/Node2D.cpp.o.provides.build: CMakeFiles/Lab.dir/Node2D.cpp.o
 
 CMakeFiles/Lab.dir/Node3D.cpp.o: CMakeFiles/Lab.dir/flags.make
 CMakeFiles/Lab.dir/Node3D.cpp.o: ../Node3D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab.dir/Node3D.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab.dir/Node3D.cpp.o -c /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node3D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab.dir/Node3D.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab.dir/Node3D.cpp.o -c /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node3D.cpp
 
 CMakeFiles/Lab.dir/Node3D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab.dir/Node3D.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node3D.cpp > CMakeFiles/Lab.dir/Node3D.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node3D.cpp > CMakeFiles/Lab.dir/Node3D.cpp.i
 
 CMakeFiles/Lab.dir/Node3D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab.dir/Node3D.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node3D.cpp -o CMakeFiles/Lab.dir/Node3D.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node3D.cpp -o CMakeFiles/Lab.dir/Node3D.cpp.s
 
 CMakeFiles/Lab.dir/Node3D.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Lab.dir/Node3D.cpp.o.provides.build: CMakeFiles/Lab.dir/Node3D.cpp.o
 
 CMakeFiles/Lab.dir/Element.cpp.o: CMakeFiles/Lab.dir/flags.make
 CMakeFiles/Lab.dir/Element.cpp.o: ../Element.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Lab.dir/Element.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab.dir/Element.cpp.o -c /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Element.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Lab.dir/Element.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab.dir/Element.cpp.o -c /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Element.cpp
 
 CMakeFiles/Lab.dir/Element.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab.dir/Element.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Element.cpp > CMakeFiles/Lab.dir/Element.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Element.cpp > CMakeFiles/Lab.dir/Element.cpp.i
 
 CMakeFiles/Lab.dir/Element.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab.dir/Element.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Element.cpp -o CMakeFiles/Lab.dir/Element.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Element.cpp -o CMakeFiles/Lab.dir/Element.cpp.s
 
 CMakeFiles/Lab.dir/Element.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/Lab.dir/Element.cpp.o.provides.build: CMakeFiles/Lab.dir/Element.cpp.
 
 CMakeFiles/Lab.dir/main.cpp.o: CMakeFiles/Lab.dir/flags.make
 CMakeFiles/Lab.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Lab.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab.dir/main.cpp.o -c /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Lab.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab.dir/main.cpp.o -c /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/main.cpp
 
 CMakeFiles/Lab.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/main.cpp > CMakeFiles/Lab.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/main.cpp > CMakeFiles/Lab.dir/main.cpp.i
 
 CMakeFiles/Lab.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/main.cpp -o CMakeFiles/Lab.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/main.cpp -o CMakeFiles/Lab.dir/main.cpp.s
 
 CMakeFiles/Lab.dir/main.cpp.o.requires:
 
@@ -221,7 +221,7 @@ Lab: CMakeFiles/Lab.dir/Element.cpp.o
 Lab: CMakeFiles/Lab.dir/main.cpp.o
 Lab: CMakeFiles/Lab.dir/build.make
 Lab: CMakeFiles/Lab.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Lab"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Lab"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lab.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -243,6 +243,6 @@ CMakeFiles/Lab.dir/clean:
 .PHONY : CMakeFiles/Lab.dir/clean
 
 CMakeFiles/Lab.dir/depend:
-	cd /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles/Lab.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug /home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles/Lab.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Lab.dir/depend
 

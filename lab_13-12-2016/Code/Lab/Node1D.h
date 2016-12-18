@@ -5,7 +5,7 @@
 #ifndef LAB_NODE1D_H
 #define LAB_NODE1D_H
 
-#include "node.h"
+#include "Node.h"
 
 class Node1D : public Node{
 protected:

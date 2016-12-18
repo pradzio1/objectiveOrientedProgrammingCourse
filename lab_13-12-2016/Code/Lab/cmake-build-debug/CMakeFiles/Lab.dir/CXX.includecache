@@ -6,51 +6,51 @@
 
 #IncludeRegexTransform: 
 
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Element.cpp
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Element.cpp
 Element.h
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Element.h
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Element.h
 
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Element.h
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Element.h
+Node3D.h
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node3D.h
 iostream
 -
 
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node.cpp
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node.cpp
 Node.h
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node.h
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node.h
 
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node.h
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node.h
 
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node1D.cpp
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node1D.cpp
 Node1D.h
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node1D.h
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node1D.h
 
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node1D.h
-node.h
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/node.h
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node1D.h
+Node.h
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node.h
 
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node2D.cpp
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node2D.cpp
 Node2D.h
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node2D.h
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node2D.h
 
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node2D.h
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node2D.h
 Node1D.h
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node1D.h
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node1D.h
 
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node3D.cpp
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node3D.cpp
 Node3D.h
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node3D.h
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node3D.h
 
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node3D.h
-Node2D.h
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node2D.h
-
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/main.cpp
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node3D.h
 iostream
 -
-Node3D.h
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node3D.h
-Element.h
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Element.h
+Node2D.h
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Node2D.h
 
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/node.h
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/main.cpp
+iostream
+-
+Element.h
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/Element.h
 

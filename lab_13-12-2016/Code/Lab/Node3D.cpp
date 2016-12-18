@@ -29,3 +29,6 @@ Node3D::Node3D(const Node3D &copy) {
     zmienne=copy.zmienne;
 }
 Node3D::~Node3D() {}
+void Node3D::wypisz(){
+    cout <<"dupa";
+}

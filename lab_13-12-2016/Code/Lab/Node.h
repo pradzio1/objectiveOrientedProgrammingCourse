@@ -4,10 +4,8 @@
 
 #ifndef LAB_NODE_H
 #define LAB_NODE_H
-
-
 class Node {
-    virtual void wypisz()=0;
+    virtual void wypisz(){};
 };
 
 

@@ -1,3 +1,3 @@
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles/Lab.dir
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/radix/objectiveOrientedProgrammingCourse/lab_13-12-2016/Code/Lab/cmake-build-debug/CMakeFiles/Lab.dir
