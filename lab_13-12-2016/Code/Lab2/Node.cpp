@@ -28,4 +28,5 @@ double* Node::getVal() {
     double vals[3];
     for (int x=0;x<3;x++)
         vals[x]=variables[x];
+    return vals;
 }
