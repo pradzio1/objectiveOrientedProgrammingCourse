@@ -4,9 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/main.cpp" "/home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug/CMakeFiles/Code.dir/main.cpp.o"
+  "/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/MyException.cpp" "/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug/CMakeFiles/Code.dir/MyException.cpp.o"
+  "/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/Student.cpp" "/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug/CMakeFiles/Code.dir/Student.cpp.o"
+  "/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/main.cpp" "/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug/CMakeFiles/Code.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

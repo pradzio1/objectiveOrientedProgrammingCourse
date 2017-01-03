@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code
+CMAKE_SOURCE_DIR = /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug/CMakeFiles /home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug/CMakeFiles /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,60 @@ Code/fast:
 	$(MAKE) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
 .PHONY : Code/fast
 
+MyException.o: MyException.cpp.o
+
+.PHONY : MyException.o
+
+# target to build an object file
+MyException.cpp.o:
+	$(MAKE) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/MyException.cpp.o
+.PHONY : MyException.cpp.o
+
+MyException.i: MyException.cpp.i
+
+.PHONY : MyException.i
+
+# target to preprocess a source file
+MyException.cpp.i:
+	$(MAKE) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/MyException.cpp.i
+.PHONY : MyException.cpp.i
+
+MyException.s: MyException.cpp.s
+
+.PHONY : MyException.s
+
+# target to generate assembly for a file
+MyException.cpp.s:
+	$(MAKE) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/MyException.cpp.s
+.PHONY : MyException.cpp.s
+
+Student.o: Student.cpp.o
+
+.PHONY : Student.o
+
+# target to build an object file
+Student.cpp.o:
+	$(MAKE) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Student.cpp.o
+.PHONY : Student.cpp.o
+
+Student.i: Student.cpp.i
+
+.PHONY : Student.i
+
+# target to preprocess a source file
+Student.cpp.i:
+	$(MAKE) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Student.cpp.i
+.PHONY : Student.cpp.i
+
+Student.s: Student.cpp.s
+
+.PHONY : Student.s
+
+# target to generate assembly for a file
+Student.cpp.s:
+	$(MAKE) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Student.cpp.s
+.PHONY : Student.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Code"
+	@echo "... MyException.o"
+	@echo "... MyException.i"
+	@echo "... MyException.s"
+	@echo "... Student.o"
+	@echo "... Student.i"
+	@echo "... Student.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

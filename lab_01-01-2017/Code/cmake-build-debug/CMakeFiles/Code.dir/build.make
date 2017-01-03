@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code
+CMAKE_SOURCE_DIR = /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Code.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Code.dir/flags.make
 
 CMakeFiles/Code.dir/main.cpp.o: CMakeFiles/Code.dir/flags.make
 CMakeFiles/Code.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Code.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Code.dir/main.cpp.o -c /home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Code.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Code.dir/main.cpp.o -c /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/main.cpp
 
 CMakeFiles/Code.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Code.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/main.cpp > CMakeFiles/Code.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/main.cpp > CMakeFiles/Code.dir/main.cpp.i
 
 CMakeFiles/Code.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Code.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/main.cpp -o CMakeFiles/Code.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/main.cpp -o CMakeFiles/Code.dir/main.cpp.s
 
 CMakeFiles/Code.dir/main.cpp.o.requires:
 
@@ -81,17 +81,69 @@ CMakeFiles/Code.dir/main.cpp.o.provides: CMakeFiles/Code.dir/main.cpp.o.requires
 CMakeFiles/Code.dir/main.cpp.o.provides.build: CMakeFiles/Code.dir/main.cpp.o
 
 
+CMakeFiles/Code.dir/Student.cpp.o: CMakeFiles/Code.dir/flags.make
+CMakeFiles/Code.dir/Student.cpp.o: ../Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Code.dir/Student.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Code.dir/Student.cpp.o -c /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/Student.cpp
+
+CMakeFiles/Code.dir/Student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Code.dir/Student.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/Student.cpp > CMakeFiles/Code.dir/Student.cpp.i
+
+CMakeFiles/Code.dir/Student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Code.dir/Student.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/Student.cpp -o CMakeFiles/Code.dir/Student.cpp.s
+
+CMakeFiles/Code.dir/Student.cpp.o.requires:
+
+.PHONY : CMakeFiles/Code.dir/Student.cpp.o.requires
+
+CMakeFiles/Code.dir/Student.cpp.o.provides: CMakeFiles/Code.dir/Student.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Student.cpp.o.provides.build
+.PHONY : CMakeFiles/Code.dir/Student.cpp.o.provides
+
+CMakeFiles/Code.dir/Student.cpp.o.provides.build: CMakeFiles/Code.dir/Student.cpp.o
+
+
+CMakeFiles/Code.dir/MyException.cpp.o: CMakeFiles/Code.dir/flags.make
+CMakeFiles/Code.dir/MyException.cpp.o: ../MyException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Code.dir/MyException.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Code.dir/MyException.cpp.o -c /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/MyException.cpp
+
+CMakeFiles/Code.dir/MyException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Code.dir/MyException.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/MyException.cpp > CMakeFiles/Code.dir/MyException.cpp.i
+
+CMakeFiles/Code.dir/MyException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Code.dir/MyException.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/MyException.cpp -o CMakeFiles/Code.dir/MyException.cpp.s
+
+CMakeFiles/Code.dir/MyException.cpp.o.requires:
+
+.PHONY : CMakeFiles/Code.dir/MyException.cpp.o.requires
+
+CMakeFiles/Code.dir/MyException.cpp.o.provides: CMakeFiles/Code.dir/MyException.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/MyException.cpp.o.provides.build
+.PHONY : CMakeFiles/Code.dir/MyException.cpp.o.provides
+
+CMakeFiles/Code.dir/MyException.cpp.o.provides.build: CMakeFiles/Code.dir/MyException.cpp.o
+
+
 # Object files for target Code
 Code_OBJECTS = \
-"CMakeFiles/Code.dir/main.cpp.o"
+"CMakeFiles/Code.dir/main.cpp.o" \
+"CMakeFiles/Code.dir/Student.cpp.o" \
+"CMakeFiles/Code.dir/MyException.cpp.o"
 
 # External object files for target Code
 Code_EXTERNAL_OBJECTS =
 
 Code: CMakeFiles/Code.dir/main.cpp.o
+Code: CMakeFiles/Code.dir/Student.cpp.o
+Code: CMakeFiles/Code.dir/MyException.cpp.o
 Code: CMakeFiles/Code.dir/build.make
 Code: CMakeFiles/Code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Code"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Code"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Code.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +152,8 @@ CMakeFiles/Code.dir/build: Code
 .PHONY : CMakeFiles/Code.dir/build
 
 CMakeFiles/Code.dir/requires: CMakeFiles/Code.dir/main.cpp.o.requires
+CMakeFiles/Code.dir/requires: CMakeFiles/Code.dir/Student.cpp.o.requires
+CMakeFiles/Code.dir/requires: CMakeFiles/Code.dir/MyException.cpp.o.requires
 
 .PHONY : CMakeFiles/Code.dir/requires
 
@@ -108,6 +162,6 @@ CMakeFiles/Code.dir/clean:
 .PHONY : CMakeFiles/Code.dir/clean
 
 CMakeFiles/Code.dir/depend:
-	cd /home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code /home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code /home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug /home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug /home/radix/Repo/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug/CMakeFiles/Code.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug /Users/radix/Desktop/objectiveOrientedProgrammingCourse/lab_01-01-2017/Code/cmake-build-debug/CMakeFiles/Code.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Code.dir/depend
 
